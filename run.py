@@ -1,6 +1,6 @@
 import pygame as pg
-from battleship.game_components.game_config import *
-from battleship.game_components.battle_items import PlayField
+from game_components.game_config import *
+from game_components.battle_items import PlayField
 from battle_components.components import SeaBattle, GamePole
 
 

@@ -1,5 +1,10 @@
+import sys
+import os
+
+sys.path.append(os.path.join(os.getcwd(), '..'))
+
 import pytest
-from battleship.battle_components.components import Ship, GamePole
+from battle_components.components import Ship, GamePole
 
 
 ship = Ship(2)

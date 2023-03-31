@@ -1,11 +1,12 @@
-from pprint import pprint
+import sys
+import os
 from typing import Callable
-
 import pygame as pg
-from random import randint
+
+sys.path.append(os.path.join(os.getcwd(), '..'))
 from .game_config import *
 from time import sleep
-from ..battle_components.components import GamePole
+from battle_components.components import GamePole
 
 pg.init()
 fnt_num = pg.font.SysFont('freesansbold', FNT_SIZE)

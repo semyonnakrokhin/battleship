@@ -1,5 +1,11 @@
+import sys
+import os
+
+sys.path.append(os.path.join(os.getcwd(), '..'))
+
 from string import ascii_lowercase
-from ..battle_components.components import SeaBattle
+
+from battle_components.components import SeaBattle
 
 BASE_DIR = ''#'/battleship/'
 IMG_DIR = 'images/'
